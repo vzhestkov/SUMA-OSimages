@@ -2,9 +2,9 @@
 
 <image schemaversion="6.1" name="POS_Image_JeOS6">
     <description type="system">
-        <author>Admin User</author>
-        <contact>noemail@example.com</contact>
-        <specification>SUSE Linux Enterprise 12 SP3 JeOS</specification>
+        <author>Victor Zhestkov</author>
+        <contact>vzhestkov@gmail.com</contact>
+        <specification>SUSE Linux Enterprise 12 SP4 JeOS</specification>
     </description>
     <preferences>
         <version>6.0.0</version>
@@ -14,8 +14,8 @@
 
         <locale>en_US</locale>
         <keytable>us.map.gz</keytable>
-        <timezone>Europe/Berlin</timezone>
-        <hwclock>utc</hwclock>
+        <timezone>Europe/Moscow</timezone>
+        <hwclock>local</hwclock>
 
         <rpm-excludedocs>true</rpm-excludedocs>
         <type boot="saltboot/suse-SLES12" bootloader="grub2" checkprebuilt="true" compressed="false" filesystem="ext3" fsmountoptions="acl" fsnocheck="true" image="pxe" kernelcmdline="quiet"></type>
